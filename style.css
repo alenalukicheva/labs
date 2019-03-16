@@ -1,0 +1,66 @@
+body {
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+/*-- Меню начало --*/
+ul.menu {
+	list-style: none;
+	text-align: center;
+}
+
+ul.menu li {
+	display: inline;
+}
+
+ul.menu li a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000; 
+	padding: 6px 10px 6px 10px;
+	border: 1px solid;
+	border-radius: 45px;
+}
+
+ul.menu li a:hover {
+	padding: 6px 10px 6px 10px;
+	font-weight: bold;
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #000;
+	border-radius: 45px;
+}
+
+/*-- Меню конец --*/
+
+.content {
+	margin:11% 25% 0% 27%;;
+	width:50%;
+	text-align: center;
+}
+h2{
+	line-height: 0;
+}
+p{
+	line-height: 0;
+}
+
+table {
+	margin: 0 25% 0 0%;
+	width: 100%;
+}
+
+td, th {
+	border: 1px #000 solid;
+	border-radius: 15px;
+	padding: 2px 10px;
+}
+
+td.a {
+	background-color: black;
+    color: white;
+}
+td.sec {
+    width: 30%;
+
+}
+
